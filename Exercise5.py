@@ -1,0 +1,15 @@
+scores = [55, 80, 35, 90, 65]
+scores.append(75)
+print(scores)
+
+scores[1] = 85
+print(scores)
+
+average=sum(scores)/len(scores)
+print("Count:", len(scores))
+print("Highest:", max(scores))
+print("Lowest:", min(scores))
+print("Average",average)
+for score in scores:
+    if score >= 80:
+        print(score)
